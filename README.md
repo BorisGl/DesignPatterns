@@ -1,4 +1,4 @@
 # DesignPatterns
 Design patterns code examples
 
-Having fun with githun
+Having fun with github
