@@ -1,2 +1,2 @@
 # DesignPatterns
-Design patterns code examples (master branch)
+Design patterns code examples
