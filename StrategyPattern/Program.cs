@@ -1,0 +1,24 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace StrategyPattern
+{
+    class Program
+    {
+        static void Main(string[] args)
+        { //AssaultRifle ar = new AssaultRifle();
+            Weapon gun = new Gun();
+            Weapon ar = new AssaultRifle();
+
+            ar.FireBurst();
+            gun.FireBurst();
+
+            gun.BurstMode = new CanBurst();
+            gun.FireBurst();
+            Console.ReadLine();
+        }
+    }
+}
